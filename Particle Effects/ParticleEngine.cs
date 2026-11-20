@@ -109,5 +109,11 @@ namespace Particle_Effects
             get { return _color; }
             set { _color = value; }
         }
+
+        public float Speed
+        {
+            get { return _speed; }
+            set { _speed = value; }
+        }
     }
 }
